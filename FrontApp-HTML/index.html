@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fronted App with HTML , JS and CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Frontend App</a>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-3">
+        <h1>categories</h1>
+            <ul class="nav flex coloum">
+                <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">cloths</a>
+                        <a class="nav-link active" aria-current="page" href="#">foods</a>
+                      </li>     
+            </ul>
+        </div>
+      
+    
+        <div class="col 9">
+            <div class="container">
+  <h1>items</h1>
+        </div>
+      
+      
+
+        <div id="items"  class="row">
+            <!--Fetch products from API and show them here as coloums-->
+
+            <div class="col-lg-3 col-sm-6 col-12 mb-4"> <!--Start Product-->
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Item Price</p>
+                  <p class="card-text">Item Quantity</p>
+                  <p class="card-text">Item Category</p>
+                  <a href="#" class="btn btn-primary">View Item</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
